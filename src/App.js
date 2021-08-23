@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className="w-screen h-screen grid place-items-center App-header">
+      <div className="">
+        <img src="assets/img/image.jpeg" className="App-logo w-48 h-48 mx-auto rounded-full object-cover" alt="logo" />
+        <p className="text-white text-3lg mt-5">
+          Tailwind css + Webpack 5
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      </div>
     </div>
   );
 }
